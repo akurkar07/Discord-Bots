@@ -14,7 +14,7 @@ bot = commands.Bot(command_prefix='!') #setting up discord client
 
 @bot.event
 async def on_ready():
-  await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="yo momma's ass"))                  
+  await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=""))                  
   print('Initialization complete.\n\nThe bot the humans call GLaDoS is online!')
 
 global data
