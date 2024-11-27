@@ -35,7 +35,7 @@ def get_price(coin, currency):
 
 @client.event
 async def on_ready():
-  await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="yo mamma's ass"))
+  await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="none"))
   print('''Initialization complete.
 
 The bot the humans call {0.user} is online.'''.format(client))
