@@ -216,7 +216,7 @@ async def on_message(message):
         balance_list[0] = round(balance_list[0], 2)
       await bot_say('You have ' + str(balance_list[1]) +' bitcoins and ' + str(balance_list[2]) + ' ethers.')
       if balance_list[0] <= 0:
-        await bot_say('You\'re balance is currently £' + str(balance_list[0]) + ', you broke bitch!')
+        await bot_say('You\'re balance is currently £' + str(balance_list[0]))
       if balance_list[0] > 0:
         await bot_say('You\'re balance is currently £' + str(balance_list[0]) + ', keep the cash money flowing, big man!')
       
